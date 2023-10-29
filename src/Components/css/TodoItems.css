@@ -1,0 +1,50 @@
+.todoitems
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+}
+.todoitems-container
+{
+    display: flex;
+
+}
+.todoitems-text
+{
+    padding-left: 20px;
+    font-size: 18px;
+    color: #404040;
+}
+.todo-items-cross-icon
+{
+    cursor: pointer;
+    /* padding-right: 10px; */
+}
+.line-through
+{
+    text-decoration: line-through solid #ADADAD 3px;
+}
+@media screen and (max-width:516px) {
+    .todoitems-text
+{
+    padding-left: 10px;
+    font-size: 15px;
+    color: #404040;
+}
+.tick{
+    width: 13px;
+    height: 18px;
+}
+.nottick
+{
+width: 13px;
+height: 18px;
+}
+.todo-items-cross-icon
+{
+    height: 13px;
+    width: 18px;
+}
+    
+}
